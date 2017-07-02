@@ -964,6 +964,7 @@ export function reach(schema: Schema, path: string): Schema;
  * Creates a new Joi instance customized with the extension(s) you provide included.
  */
 export function extend(extention: Extension): any;
+export function extend(extention: Extension[]): any;
 
 /**
  * Whitelists a value
